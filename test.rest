@@ -1,0 +1,43 @@
+GET http://localhost:5000
+
+### SIGNUP A USER
+POST http://localhost:5000/api/auth/signup
+Content-Type: application/json
+
+{
+    "username": "smaglago",
+    "email": "samuellamanyeaglago@gmail.com",
+    "password": "123456",
+    "confirm_password": "123456",
+    "gender": "female"
+}
+
+### SIGNUP A USER
+POST http://localhost:5000/api/auth/signup
+Content-Type: application/json
+
+{
+    "username": "kennyani9",
+    "email": "kennyanyi9@gmail.com",
+    "password": "123456",
+    "confirm_password": "123456",
+    "gender": "male"
+}
+
+### LOGIN A USER
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+    "username": "smaglago",
+    "password": "123456"
+}
+
+### LOGIN A USER
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json
+
+{
+    "username": "kennyani9",
+    "password": "123456"
+}

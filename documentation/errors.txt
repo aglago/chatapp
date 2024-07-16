@@ -1,0 +1,8 @@
+CANNOT POST TO localhost:8080/api/auth/signup
+- The http method in the code and that of the implementation are different.
+
+RECALLING
+- There are 2 calls of res.end or res.send
+
+INTERNAL SERVER ERROR
+something in the try block is not working
